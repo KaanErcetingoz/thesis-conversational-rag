@@ -1,0 +1,26 @@
+# Core orchestration
+langchain==0.3.30
+langchain-core==0.3.86
+langchain-community==0.3.31
+langchain-text-splitters==0.3.11
+langchain-huggingface==0.3.1
+
+# LLM / embeddings backend
+huggingface_hub==0.36.2
+sentence-transformers==5.1.2
+transformers==4.57.6
+torch==2.8.0
+
+# Vector store
+chromadb==1.5.9
+
+# Document loading
+pypdf==6.19.0
+
+# Pinned to avoid the ABI break between NumPy 2.x and the
+# chromadb / scikit-learn wheels used here
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# Notebook runtime
+jupyter

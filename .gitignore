@@ -1,0 +1,36 @@
+# Python & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & API keys
+.env
+.env.*
+!.env.example
+*.key
+
+# Source documents (keep the thesis PDF out of the repo)
+*.pdf
+
+# Vector databases & local caches
+chroma_db/
+.chroma/
+*.sqlite3
+.cache/
+.huggingface/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
