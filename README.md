@@ -32,8 +32,8 @@ A memory-aware Retrieval-Augmented Generation (RAG) assistant built with **LangC
 **1. Clone and enter the repo**
 
 ```bash
-git clone https://github.com/your-username/langchain_project.git
-cd langchain_project
+git clone https://github.com/KaanErcetingoz/thesis-conversational-rag.git
+cd thesis-conversational-rag
 ```
 
 **2. Create a virtual environment and install dependencies**
